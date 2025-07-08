@@ -52,7 +52,7 @@ img {
     border-radius: 0.625rem;
 }
 
-@media screen and (max-width: 375px) {
+/*@media screen and (max-width: 375px) {
     .component {
         width: 90vw;
     }
@@ -60,4 +60,4 @@ img {
     :root {
         font-size: calc(16px*100vw/375)
     }
-}
+}*/

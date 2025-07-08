@@ -6,9 +6,9 @@
     font-weight: 700;
     font-style: normal;
     color: hsl(218, 44%, 22%);
-    font-size: 22.5px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 1.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 
 }
 
@@ -19,7 +19,7 @@
     font-style: normal;
     color: hsl(216, 15%, 48%);
     font-size: 15px;
-    margin: 15px 27.5px 34px 27.5px;
+    margin: 1rem 1.7rem 2.2rem;
 }
 
 * {
@@ -28,7 +28,7 @@
     text-align: center;
 }
 
-#container {
+.container {
     width: 100vw;
     height: 100vh;
     background-color: hsl(212, 45%, 89%);
@@ -37,15 +37,27 @@
     align-items: center;
 }
 
-#component {
-    width: 320px;
+.component {
+    width: 20rem;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 1.25rem;
+    box-shadow: 4px 4px 15px 1px hsla(216, 15%, 48%, 0.199);
+
 }
 
 img {
-    width: 290px;
-    height: 300px;
-    margin: 15px;
-    border-radius: 10px;
+    width: 18rem;
+    height: 18rem;
+    margin: 1rem;
+    border-radius: 0.625rem;
+}
+
+@media screen and (max-width: 375px) {
+    .component {
+        width: 90vw;
+    }
+
+    :root {
+        font-size: calc(16px*100vw/375)
+    }
 }

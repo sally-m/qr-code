@@ -1,29 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+.outfit-700 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(218, 44%, 22%);
+    font-size: 22.5px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.outfit-400 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    margin: 15px 27.5px 34px 27.5px;
+}
+
 * {
-    font-family: outfit;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 #container {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #component {
-    width: 80%;
+    width: 320px;
     background-color: white;
-    margin: auto;
+    border-radius: 20px;
 }
 
 img {
-    margin: auto;
+    width: 290px;
+    height: 300px;
+    margin: 15px;
+    border-radius: 10px;
 }
 
-h1 {
-    font-weight: 700;
-    color: hsl(218, 44%, 22%)
-}
+h1 {}
 
-p {
-    font-weight: 400;
-    color: hsl(216, 15%, 48%)
-}
+p {}
